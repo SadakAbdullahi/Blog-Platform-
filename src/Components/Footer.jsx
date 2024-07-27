@@ -73,16 +73,6 @@ const Footer = () => {
                   class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
-                  Delivery Details{" "}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
-                >
-                  {" "}
                   Terms & Conditions{" "}
                 </a>
               </li>
