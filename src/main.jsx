@@ -11,6 +11,7 @@ import EditPost from "./Components/EditPost"; // Import EditPost
 import NavBar from "./Components/NavBar";
 import About from "./Components/About";
 import Bloggers from "./Components/Bloggers";
+import Bloggs from "./Components/Bloggs";
 import { AuthProvider } from "./context/AuthContext";
 import { BlogProvider } from "./context/BlogContext";
 import "./index.css";
@@ -31,6 +32,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             {/* Add route for EditPost */}
             <Route path="/about" element={<About />} />
             <Route path="/bloggers" element={<Bloggers />} />
+            <Route path="/bloggs" element={<Bloggs />} />
           </Routes>
         </Router>
       </BlogProvider>
