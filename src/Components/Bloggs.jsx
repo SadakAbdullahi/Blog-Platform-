@@ -1,12 +1,12 @@
 // src/Components/Bloggs.js
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const Bloggs = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/posts') // Mock API for example
+    fetch("https://jsonplaceholder.typicode.com/posts") // Mock API for example
       .then((response) => response.json())
       .then((data) => {
         setPosts(data);
@@ -27,7 +27,6 @@ const Bloggs = () => {
           <p>{post.body}</p>
         </div>
       ))}
-      
     </div>
   );
 };

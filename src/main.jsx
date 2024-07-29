@@ -1,4 +1,3 @@
-// src/index.js or src/App.js
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -10,8 +9,10 @@ import PostDetail from "./Components/PostDetail";
 import EditPost from "./Components/EditPost"; // Import EditPost
 import NavBar from "./Components/NavBar";
 import About from "./Components/About";
+import Footer from './Components/Footer'
 import Bloggers from "./Components/Bloggers";
 import Bloggs from "./Components/Bloggs";
+import ContactUs from "./Components/ContactUs"; // Import ContactUs
 import { AuthProvider } from "./context/AuthContext";
 import { BlogProvider } from "./context/BlogContext";
 import "./index.css";
@@ -28,12 +29,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Route path="/register" element={<Register />} />
             <Route path="/create" element={<CreatePost />} />
             <Route path="/post/:id" element={<PostDetail />} />
-            <Route path="/edit/:id" element={<EditPost />} />{" "}
-            {/* Add route for EditPost */}
+            <Route path="/edit/:id" element={<EditPost />} /> {/* Add route for EditPost */}
             <Route path="/about" element={<About />} />
             <Route path="/bloggers" element={<Bloggers />} />
             <Route path="/bloggs" element={<Bloggs />} />
+            <Route path="/contact-us" element={<ContactUs />} /> {/* Add route for ContactUs */}
           </Routes>
+          <Footer />
         </Router>
       </BlogProvider>
     </AuthProvider>

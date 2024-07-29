@@ -1,4 +1,3 @@
-// src/Components/NavBar.js
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
@@ -33,6 +32,12 @@ const NavBar = () => {
             className="hover:underline hover:underline-offset-4 hover:text-gray-200 transition-colors duration-300"
           >
             Bloggs
+          </Link>
+          <Link
+            to="/contact-us"
+            className="hover:underline hover:underline-offset-4 hover:text-gray-200 transition-colors duration-300"
+          >
+            Contact Us
           </Link>
           {isAuthenticated ? (
             <>
