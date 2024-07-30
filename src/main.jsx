@@ -9,7 +9,7 @@ import PostDetail from "./Components/PostDetail";
 import EditPost from "./Components/EditPost"; // Import EditPost
 import NavBar from "./Components/NavBar";
 import About from "./Components/About";
-import Footer from './Components/Footer'
+import Footer from "./Components/Footer";
 import Bloggers from "./Components/Bloggers";
 import Bloggs from "./Components/Bloggs";
 import ContactUs from "./Components/ContactUs"; // Import ContactUs
@@ -29,11 +29,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Route path="/register" element={<Register />} />
             <Route path="/create" element={<CreatePost />} />
             <Route path="/post/:id" element={<PostDetail />} />
-            <Route path="/edit/:id" element={<EditPost />} /> {/* Add route for EditPost */}
+            <Route path="/edit/:id" element={<EditPost />} />{" "}
+            {/* Add route for EditPost */}
             <Route path="/about" element={<About />} />
             <Route path="/bloggers" element={<Bloggers />} />
             <Route path="/bloggs" element={<Bloggs />} />
-            <Route path="/contact-us" element={<ContactUs />} /> {/* Add route for ContactUs */}
+            <Route path="/contact-us" element={<ContactUs />} />{" "}
+            {/* Add route for ContactUs */}
           </Routes>
           <Footer />
         </Router>

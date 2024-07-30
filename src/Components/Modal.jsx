@@ -1,6 +1,6 @@
 // src/Components/Modal.js
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 const Modal = ({ image, onClose }) => {
   return ReactDOM.createPortal(
