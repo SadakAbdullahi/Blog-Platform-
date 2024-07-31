@@ -42,3 +42,7 @@ This project is a simple blog platform built using React.js and Vite. It allows 
    ```bash
    git clone https://github.com/SadakAbdullahi/Blog-Platform-
    cd blog-platform
+   npm install
+   npm run dev
+The application will be available at http://localhost:5173.
+
