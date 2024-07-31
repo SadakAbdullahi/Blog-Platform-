@@ -21,7 +21,7 @@ This project is a simple blog platform built using React.js and Vite. It allows 
 
 - **Components**
   - Functional components for better readability and maintainability.
-  - Key components: `NavBar`, `Home`, `Login`, `Register`, `CreatePost`, `PostDetail`.
+  - Key components: `NavBar`, `Home`, `Login`, `Register`, `CreatePost`, `ContactUs`.
 
 - **Dynamic Data**
   - Mock API integration for simulating data handling. Blog posts are managed using `BlogContext`.
