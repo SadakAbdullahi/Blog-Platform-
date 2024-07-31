@@ -40,5 +40,5 @@ This project is a simple blog platform built using React.js and Vite. It allows 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/blog-platform.git
+   git clone https://github.com/SadakAbdullahi/Blog-Platform-
    cd blog-platform
